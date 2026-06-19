@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-Bq5spfFH.js"></script>
+    <script type="module" crossorigin src="./assets/index-Be2Q6EL4.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-D2z4Cjqv.css">
   </head>
   <body class="page">
@@ -56,8 +56,8 @@
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
                 required
               />
+              <span class="popup__error" id="user-name-error"></span>
             </label>
-            <span class="popup__error" id="user-name-error"></span>
             <label class="popup__label">
               <input
                 type="text"
@@ -69,8 +69,8 @@
                 maxlength="200"
                 required
               />
-            </label>
-            <span class="popup__error" id="user-description-error"></span>
+              <span class="popup__error" id="user-description-error"></span>
+            </label> 
             <button
               type="submit"
               class="button popup__button popup__button_disabled"
@@ -100,8 +100,8 @@
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
                 required
               />
+              <span class="popup__error" id="place-name-error"></span>
             </label>
-            <span class="popup__error" id="place-name-error"></span>
             <label class="popup__label">
               <input
                 type="url"
@@ -111,8 +111,8 @@
                 placeholder="Ссылка на картинку"
                 required
               />
+              <span class="popup__error" id="place-link-error"></span>
             </label>
-            <span class="popup__error" id="place-link-error"></span>
             <button
               type="submit"
               class="button popup__button popup__button_disabled"
@@ -145,8 +145,8 @@
                 placeholder="Ссылка на изображение"
                 required
               />
+              <span class="popup__error" id="user-avatar-error"></span>
             </label>
-            <span class="popup__error" id="user-avatar-error"></span>
             <button
               type="submit"
               class="button popup__button popup__button_disabled"
@@ -160,7 +160,7 @@
       <div class="popup popup_type_info">
         <div class="popup__content popup__content_content_info">
           <button type="button" class="popup__close"></button>
-          <h3 class="popup__title"></h3>
+          <h3 class="popup__title">Информация о карточке</h3>
           <dl class="popup__info"></dl>
 
           <h4 class="popup__text"></h4>
